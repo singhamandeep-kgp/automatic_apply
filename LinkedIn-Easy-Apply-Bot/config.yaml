@@ -1,0 +1,35 @@
+username: YOUR_LINKEDIN_EMAIL
+password: YOUR_LINKEDIN_PASSWORD
+phone_number: YOUR_PHONE_NUMBER
+
+profile_path: '' #can be empty, will default to 'C:\Users\<user>\AppData\Local\Google\Chrome\User Data\Default'
+
+
+positions:
+- Quantitative Researcher
+
+locations:
+- United States
+
+salary: ''
+rate: ''
+
+# --------- Optional Parameters -------
+uploads:
+  Resume: /path/to/your/resume.pdf
+  Cover Letter: " " #/Users/steven/Desktop/LinkedIn-Easy-Apply-Bot/cl.pdf
+  #Photo: # PATH TO photo
+
+
+output_filename: "application_log.csv"
+
+blacklist:
+- "Crossing Hurdles" # Company names you want to ignore
+
+experience_level:
+  - 1 # Entry level
+  - 2 # Associate
+  - 3 # Mid-Senior level
+  # - 4 # Director
+  # - 5 # Executive
+  # - 6 # Internship
